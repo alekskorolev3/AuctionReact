@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding: 15px;
+  align-items: flex-start;
+  gap: 15px;
+  align-self: stretch;
+  border-radius: 16px;
+  border: 1px solid rgba(149, 149, 157, 0.27);
+}
+
+.icon {
+
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  flex: 1 0 0;
+}
+
+.title {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.date {
+  color: #95959D;
+  font-size: 12px;
+  font-weight: 400;
+}

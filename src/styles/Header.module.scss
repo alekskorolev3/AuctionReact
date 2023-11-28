@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  height: 60px;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid var(--27, rgba(149, 149, 157, 0.27));
+
+  @media (min-width: 550px) {
+
+  }
+}
+
+.innerContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+}
+
+.balanceContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-right: 8px;
+  border-right: 1px solid rgba(149, 149, 157, 0.27);
+}
+
+.title {
+  color: #95959D;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.valueContainer {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+
+}
+
+.value {
+  color: #222222;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.currency {
+  color: #222222;
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  gap: 20px;
+}
+
+.titleContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  margin: 0;
+  color: #222222;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.count {
+  color: #95959D;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.lotContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 100px;
+}
+

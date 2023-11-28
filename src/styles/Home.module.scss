@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.searchContainer {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 25px;
+  width: 100%;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.categoryContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.categoryContainer span {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+.title {
+  color: #222222;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.filterContainer span{
+  color: #222222;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.24px;
+}
+
+
+.lotContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 100px;
+}
